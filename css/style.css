@@ -344,8 +344,29 @@ ul {
 
 
 /* start OUR TEAM */
+.team {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 
+.team-image img {
+    border-radius: 50%;
+}
 
+.column_item_team {
+    padding: 10px;
+}
+
+.team-description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team-description h2 {
+    color: #2a488f;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
 /* end OUR TEAM */
 
 
