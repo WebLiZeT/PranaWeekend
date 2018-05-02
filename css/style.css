@@ -226,7 +226,7 @@ ul {
 /* start PRICING PLANS */
 .pricing-plans {
     padding-bottom: 30px;
-    background: #e7b9a9 url('../img/sec-bg-1.jpg') no-repeat top center;
+    background: #e7b9a9 url('../img/program-bg.jpg') no-repeat top center;
     background-size: cover;
 }
 
@@ -402,7 +402,7 @@ ul {
 
 .map {
     /*background-color: #e6e7ec;*/
-    background: #e7b9a9 url('../img/map-bg-1.jpg') no-repeat top center;
+    background: #e7b9a9 url('../img/sec-bg-3.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
