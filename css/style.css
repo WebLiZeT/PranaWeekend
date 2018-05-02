@@ -1,0 +1,408 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Arial', serif;
+    color: #000000;
+    background-color: #faf5f8;
+}
+
+p,
+ul,
+h2,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+ p {
+    color: #333333;
+    line-height: 21px;
+ }
+
+ .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.mtb {
+    margin-top: 100px; 
+}
+
+/* start MAIN SCREEN */
+.main-screen {
+    background: #e7b9a9 url('../img/main-bg-1.jpg') no-repeat top center;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.wrapper {
+    margin: 40px 25px;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu a {
+    display: block;
+    padding: 10px 25px;
+    font-family: 'Arial', serif;
+    color: #1c3265;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.main-menu a:hover {
+    color: #f7e2db;
+    text-decoration: none;
+}
+
+.main-date {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.main-date h2,
+.main-date h3 {
+    font-family: 'GothamPro', serif;
+    color: #000000;
+}
+
+.main-date h2 {
+    font-size: 65px;
+    font-weight: 900;
+}
+.main-date h3 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.main-title {
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.main-title h1 {
+    color: #2a488f;
+    font-size: 65px;
+    letter-spacing: 45px;
+    line-height: 40px;
+    margin-top: 0.5em;
+}
+
+.white-title p {
+    font-family: 'Arial', serif;
+    font-size: 44px;
+    line-height: 50px;
+    text-shadow: 1px 1px 7px #6c6b6b;
+    color: #fcfcfd;
+    margin-top: 10%;
+}
+/* end MAIN SCREEN */
+
+
+
+/* start PROGRAM */
+
+.program {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-family: 'Arial', serif;
+    font-size: 30px;
+    color: #2a488f;
+    font-weight: bold;
+}
+
+.column_item_program {
+    margin-left: 60px;
+}
+
+.column_item_program img {
+    margin-right: 20px;
+}
+
+.column_item_program li {
+    font-family: 'Arial', serif;
+    font-size: 22px;
+    color: #020306;
+    font-weight: bold;
+    line-height: 40px;
+}
+/* end PROGRAM */
+
+
+
+/* start CallToAction */
+.CallToAction {
+    background: #e7b9a9 url('../img/section-bg-1.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.CallToAction-container {
+    display: table;
+    height: 250px;
+}
+
+.CallToAction-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.CallToAction-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan {
+    margin: 20px auto;
+}
+
+.slogan p {
+    font-size: 40px;
+    color: #2b4684;
+    text-shadow: 1px 1px 7px #6c6b6b;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.CallToAction-button a {
+    display: block;
+    border: 1px solid #2b4684;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 50px auto 0 auto;
+    font-size: 22px;
+    color: #4f71be;
+    transition: 0.3s;
+}
+
+.CallToAction-button a:hover {
+    text-decoration: none;
+    color: #2b4684;
+    transform: scale(1.05);
+    border-color: #233b72;
+}
+
+/* end CallToAction */
+
+
+
+/* start PRICING PLANS */
+.pricing-plans {
+    padding-bottom: 30px;
+}
+
+.pricing-table {
+    border: 1px solid #F1F1F1;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.pricing-table:hover {
+    box-shadow: 0 0 0 4px #2a488f;
+}
+
+.pricing-table li.plan-price {
+    padding: 20px 0 10px;
+    background-color: #F1F1F1;
+}
+
+.plan-price span:first-child {
+    font-size: 20px;
+    position: relative;
+    top: -14px;
+    color: #2a488f;
+}
+
+.plan-price span + span {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #2a488f;
+}
+
+.pricing-table li p {
+    padding: 6px;
+    margin: 0;
+}
+
+.pricing-table li.plan-name {
+    font-size: 1.8em;
+    padding: 10px 0 10px;
+    color: #2a488f;
+}
+
+.pricing-table li p {
+    padding: 6px;
+    margin: 0;
+}
+
+.pricing-table li + li {
+    border-top: 0;
+}
+
+.pricing-table ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.pricing-table ul li {
+    padding: 7px 0;
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    margin: 0 40px;
+}
+
+.pricing-table li + li {
+    border-top: 0;
+}
+
+.pricing-table .features-list .fa {
+    color: #2a488f;
+    padding-right: 8px;
+}
+
+.theme_btn {
+    font-weight: 400;
+    background-color: transparent;
+    padding: 16px 28px;
+    color: #fff;
+    background-color: #2a488f;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    line-height: 1;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.theme_btn:active,
+.theme_btn:hover,
+.theme_btn:focus {
+    background-color: transparent;
+    color: #2a488f;
+    border-color: #2a488f;
+    opacity: 1;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.call-to-action {
+    margin: 25px 0;
+}
+/* end PRICING PLANS */
+
+
+
+/* start MAP */
+
+.map {
+    /*background-color: #e6e7ec;*/
+    background: #e7b9a9 url('../img/map-bg-1.jpg') no-repeat top center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.column_item_map img {
+    border-radius: 5px;
+}
+
+.time {
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.time > * {
+    margin: 20px 0;
+}
+
+.h-section {
+    text-align: center;
+    margin: 0;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 30px;
+    color: #3a2a7c;
+}
+/* start MAP */
+
+
+
+/* start FOOTER */
+.footer {
+    background-color: #fff;
+    padding-bottom: 20px;
+    min-height: 200px;
+}
+
+.footer-contacts {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-contacts li {
+    font-size: 18px;
+    line-height: 33px;
+    color: #4d4d4d;
+}
+
+.footer-contacts .fa {
+    margin-right: 15px;
+}
+/* start FOOTER */
