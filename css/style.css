@@ -195,7 +195,7 @@ ul {
 .slogan p {
     font-size: 40px;
     color: #2b4684;
-    text-shadow: 1px 1px 7px #6c6b6b;
+    text-shadow: 1px 1px 3px #6c6b6b;
     font-weight: bold;
     line-height: 50px;
 }
@@ -226,6 +226,8 @@ ul {
 /* start PRICING PLANS */
 .pricing-plans {
     padding-bottom: 30px;
+    background: #e7b9a9 url('../img/sec-bg-1.jpg') no-repeat top center;
+    background-size: cover;
 }
 
 .pricing-table {
@@ -239,6 +241,7 @@ ul {
     -o-transition: all .2s linear;
     -ms-transition: all .2s linear;
     transition: all .2s linear;
+    border-radius: 8px;
 }
 
 .pricing-table:hover {
@@ -248,16 +251,10 @@ ul {
 .pricing-table li.plan-price {
     padding: 20px 0 10px;
     background-color: #F1F1F1;
+    opacity: 0.9;
 }
 
-.plan-price span:first-child {
-    font-size: 20px;
-    position: relative;
-    top: -14px;
-    color: #2a488f;
-}
-
-.plan-price span + span {
+.plan-price span {
     font-size: 36px;
     font-weight: 400;
     letter-spacing: -1px;
@@ -273,6 +270,7 @@ ul {
     font-size: 1.8em;
     padding: 10px 0 10px;
     color: #2a488f;
+    background-color: rgba(230,181,167,0.9);
 }
 
 .pricing-table li p {
@@ -282,6 +280,8 @@ ul {
 
 .pricing-table li + li {
     border-top: 0;
+    background-color: #fff;
+    opacity: 0.9;
 }
 
 .pricing-table ul {
@@ -293,7 +293,7 @@ ul {
 .pricing-table ul li {
     padding: 7px 0;
     border-top: 1px solid #F1F1F1;
-    border-bottom: 1px solid #F1F1F1;
+    border-bottom: 1px solid #e9e8e8;
     margin: 0 40px;
 }
 
@@ -338,9 +338,42 @@ ul {
 }
 
 .call-to-action {
-    margin: 25px 0;
+    padding: 25px 0;
 }
 /* end PRICING PLANS */
+
+
+/* start OUR TEAM */
+
+
+/* end OUR TEAM */
+
+
+
+/* start PARTNERS */
+.partners {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.partners .col-sm-3 {
+    display: table;
+    min-height: 300px;
+}
+
+.column_item_partners {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.partners-logo-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners .section-title {
+    margin-bottom: 0;
+}
+/* end PARTNERS */
 
 
 
