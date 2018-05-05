@@ -130,6 +130,10 @@ ul {
     color: #fcfcfd;
     margin-top: 10%;
 }
+
+.jumbotron {
+    margin-bottom: 0;
+}
 /* end MAIN SCREEN */
 
 
@@ -137,7 +141,18 @@ ul {
 /* start PROGRAM */
 
 .program {
-    margin-bottom: 50px;
+    padding-bottom: 30px;
+    background: #e7b9a9 url('../img/sec-bg-2.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.program-wrapper {
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px 0 20px 40px;
+    font-size: 18px;
 }
 
 .section-title {
@@ -304,6 +319,13 @@ ul {
     padding-bottom: 20px;
 }
 
+.action-button {
+    margin-top: 50px;
+}
+
+.action-button .theme_btn {
+    font-size: 16px;
+}
 /* end COACHERS */
 
 .extra,
@@ -423,6 +445,7 @@ ul {
     -o-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+    transform: scale(1.05);
 }
 
 .call-to-action {
@@ -489,7 +512,6 @@ ul {
 /* start MAP */
 
 .map {
-    /*background-color: #e6e7ec;*/
     background: #e7b9a9 url('../img/sec-bg-3.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 30px;
@@ -498,6 +520,7 @@ ul {
 
 .column_item_map img {
     border-radius: 5px;
+    width: 95%;
 }
 
 .time {
@@ -521,7 +544,7 @@ ul {
     font-size: 30px;
     color: #3a2a7c;
 }
-/* start MAP */
+/* end MAP */
 
 
 
@@ -590,3 +613,13 @@ ul {
     margin-right: 15px;
 }
 /* start FOOTER */
+
+
+/* MEDIA */
+@media screen and (max-width: 992px) {
+
+.program-wrapper {
+    padding: 0;
+}
+
+}
